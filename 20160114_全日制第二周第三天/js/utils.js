@@ -1,8 +1,8 @@
 /*
- * utils.js ´æ´¢µÄÊÇÎÒÃÇÏîÄ¿ÖĞ³£ÓÃµÄ¹«¹²µÄ·½·¨
+ * utils.js ï¿½æ´¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½Ğ³ï¿½ï¿½ÃµÄ¹ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½
  */
 var utils = {
-    //listToArray:°ÑÀàÊı×é×ª»»ÎªÊı×é(¼æÈİËùÓĞµÄä¯ÀÀÆ÷)
+    //listToArray:æŠŠç±»æ•°ç»„è½¬æ¢ä¸ºæ•°ç»„ï¼ˆå…¼å®¹æ‰€æœ‰çš„æµè§ˆå™¨ï¼‰
     listToArray: function (likeAry) {
         var ary = [];
         try {
@@ -14,7 +14,7 @@ var utils = {
         }
         return ary;
     },
-    //toJSON:°Ñjson¸ñÊ½µÄ×Ö·û´®×ª»»Îªjson¸ñÊ½µÄ¶ÔÏó
+    //toJSON:æŠŠjsonæ ¼å¼çš„å­—ç¬¦ä¸²è½¬æ¢ä¸ºjsonæ ¼å¼çš„å¯¹è±¡
     toJSON: function (str) {
         var obj = null;
         try {
