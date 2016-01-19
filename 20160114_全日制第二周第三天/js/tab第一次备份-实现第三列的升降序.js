@@ -7,7 +7,7 @@ var oTrs = tBody.rows;//->获取tBody下的所有的行
 
 //2、实现数据绑定
 function bindData() {
-    var frg = document.createDocumentFragment();
+    var frg = document.createDocumentFragment();//创建一个文档碎片
     for (var i = 0; i < jsonAry.length; i++) {
 
         //事先进行数据的初始化处理
